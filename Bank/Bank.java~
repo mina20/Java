@@ -1,0 +1,38 @@
+
+
+class Bank
+{
+	
+	Account[] acc = new Account[3];
+
+	Bank(Account[] account)
+	{
+		acc[0] = account[0];
+		acc[1] = account[1];
+		acc[2] = account[2];
+	}
+	
+	/*	
+	public static void main(String[] args)
+        {
+                Account a1 = new Account();
+		a1.increment();
+                a1.create_acc("ram",10000);
+                a1.display();
+
+		Account a2 = new Account();
+		a2.increment();
+		a2.create_acc("Shayam", 1000);
+		a2.display();
+		Account a3 = new Account();
+		a3.increment();
+		a3.create_acc("Dev", 500000);
+		a3.display();
+		
+		a1.transfer(a2,100);
+		a1.display();
+		a2.display();
+        }
+	*/
+
+}

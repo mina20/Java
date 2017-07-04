@@ -1,0 +1,17 @@
+public class Dentist extends Doctor{
+
+     public void who()
+     {
+     
+     System.out.println("Hi I am a Dentist");
+ 
+
+     }
+
+     public void treatment()
+     {
+
+      System.out.println("I treat patient by inspecting teeth");     
+     }
+
+   }

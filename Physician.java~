@@ -1,0 +1,16 @@
+public class Physician extends Doctor
+    {
+      public void who() 
+      {
+        System.out.println("I am Physician");
+
+      } 
+      public void treatment()
+      {
+
+       System.out.println("I treat general disease");
+
+      }
+
+
+     }

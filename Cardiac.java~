@@ -1,0 +1,24 @@
+public class Cardiac extends Specialist{
+
+public void who() 
+      {
+        System.out.println("I am a Cardiologist");
+
+      } 
+      public void treatment()
+      {
+
+       System.out.println("I can suggest you ECG or Stress test");
+
+      }
+    
+     public void speciality()
+
+     {
+
+      System.out.println("Heart Specialist");
+     }
+
+
+
+  }

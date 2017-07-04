@@ -1,0 +1,19 @@
+//main class for Students
+public class Execute{
+public static void main(String argc[])
+{
+
+	int r,s;
+	String n;
+	rollNo=r;
+	entScore=s;
+	name=n;
+	Students s= new Students();
+	s.display("ABC",107,33); 
+
+
+
+
+
+}
+}

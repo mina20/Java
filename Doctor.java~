@@ -1,0 +1,47 @@
+
+
+abstract protected class Doctor
+ {
+   
+    protected String name;
+
+    protected int Id;
+
+    protected String degree;
+
+    protected String hospital;
+
+    public void who();
+
+    public void treatment();        
+
+    public setValue(int id,String n,String deg,String h)
+ 
+    {
+
+       Id=id;
+       name=n;
+       degree=deg;
+       hospital=h;
+   
+    } 
+
+
+     public static void main(String args[])
+                 {
+                   Doctor D1= new Dentist();
+                   D1.setValue(213,"Dr.Suhas","BDS","Max Hospital");
+                   D1.who();
+                   D1.treatment();
+                 
+                } 
+ 	  
+
+
+ }
+
+
+
+
+
+

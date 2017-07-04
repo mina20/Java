@@ -1,0 +1,25 @@
+public class Orthopaedic extends Specialist
+{
+
+  public void who() 
+      {
+        System.out.println("I am a Orthopaedic");
+
+      } 
+      public void treatment()
+      {
+
+       System.out.println("I can suggest you X-ray and inspect it");
+
+      }
+    
+     public void speciality()
+
+     {
+
+      System.out.println("Bone Specialist");
+     }
+
+
+ }
+

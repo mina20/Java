@@ -1,0 +1,11 @@
+abstract public class Specialist extends Doctor
+  {
+
+     protected String speDeg;
+     public void speciality();
+     public setValue(String s)
+     {
+       speDeg=s;
+     }
+
+  }

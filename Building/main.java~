@@ -1,0 +1,23 @@
+public class Main{
+
+
+
+public static void main(String args[])
+
+
+		{
+		  Flat[] flat1=new Flat[4];
+                  flat1[0]=new Flat("AB",101);
+		  flat1[1]=new Flat("CD",102); 
+                  flat1[2]=new Flat("ABq",103);
+                  flat1[3]=new Flat("ABs",104);  
+                      
+                Floor[] flo1=new Floor[1];
+                flo1[0]=new Floor(flat1);
+                Building bld=new Building(flo1); 
+                    
+		}
+     
+	    
+ }
+

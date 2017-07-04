@@ -1,0 +1,43 @@
+//building have two floor and each floor have four flat your code should display information about each flat.
+
+public class Building{
+          
+ public static void main(String args[])
+		{
+		 
+                Flat [] f= new Flat[2];
+		 f[0] = new Flat();
+                 f[1] = new Flat(); 
+                
+                 f[0].Flat("AB",101);   
+		
+		}
+     
+	}     
+ 
+public class Flat{
+
+		  public int flat_no;
+                  public String name;
+                  
+                  
+                 
+		   
+                 public void  Flat(String name,int flat_no)
+                   
+			{
+
+                           System.out.println("Owner name"+name+"Flat No."+flat_no);
+
+                        }  
+                 }
+
+
+
+
+     
+
+
+
+
+
